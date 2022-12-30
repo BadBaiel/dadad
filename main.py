@@ -57,5 +57,11 @@ class Human2(Human):
             Human2.car(self)
         elif a == 5:
             Human2.__orientation(self)
+        else:
+            exit()
+    def S(self):
+        print(len(dir(self)))
+
 w = Human2('Mirdjalalydin', 23)
+w.S()
 w.wh()
